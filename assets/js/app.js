@@ -38,3 +38,29 @@ $('#mainForm').submit(function(){
     setUp();
     $('#basic_ii_assignment').show();
 });
+
+$('#mainForm_ii').submit(function(){
+    $.post(
+        $('#mainForm_ii').attr('action'),
+        $('#mainForm_ii').serialize(),
+        function(output){
+            if (output['error']){
+                $('#error').html("<div id='flash' class='alert alert-danger role='alert'><p>" + output.error + "</p></div>");
+                $('#error').fadeIn('fast');
+                $('#error').fadeOut(3600);
+            }
+            else {
+            $('#posts').append("<div class='col-md-3 basic_ii_box'><p>" + output.description + "</p></div>");
+            }
+        }, "json"
+    );
+    return false;
+});
+
+
+
+
+
+
+
+

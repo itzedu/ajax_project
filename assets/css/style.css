@@ -3,7 +3,7 @@
  */
 
 body {
-	padding-top: 70px;
+	padding-top: 50px;
 }
 a.navbar-brand {
 	padding: 0;	
@@ -14,6 +14,10 @@ a.navbar-brand img {
 	-webkit-transition: -webkit-tranform .8s ease-in-out;
 	-ms-transition: -ms-transform .8s ease-in-out;
 	transition: transform .8s ease-in-out;
+}
+
+.navbar{
+    margin-bottom: 0px;
 }
 
 .navbar li {
@@ -45,6 +49,20 @@ a.navbar-brand img {
 
 #mainForm input {
     margin-bottom: 20px;
+}
+
+#basic_i_assignment {
+    margin-top: 20px;
+}
+
+.basic_ii_box{
+    border: 1px solid black;
+    height: 200px;
+    overflow: scroll;
+}
+
+#main-container {
+    padding-bottom: 200px;
 }
 
 /* Footer
