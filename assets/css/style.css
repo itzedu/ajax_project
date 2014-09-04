@@ -1,19 +1,21 @@
 /* Header
  * ===============================
  */
-
+html {
+    font-size: 100%;
+}
 body {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 a.navbar-brand {
-	padding: 0;	
+    padding: 0;
 }
 a.navbar-brand img {
-	vertical-align: middle;
-	margin-top: 5px;
-	-webkit-transition: -webkit-tranform .8s ease-in-out;
-	-ms-transition: -ms-transform .8s ease-in-out;
-	transition: transform .8s ease-in-out;
+    vertical-align: middle;
+    margin-top: 5px;
+    -webkit-transition: -webkit-tranform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
 
 .navbar{
@@ -21,48 +23,65 @@ a.navbar-brand img {
 }
 
 .navbar li {
-	padding: 15px;
+    padding: 15px;
     color: white;
 }
 .navbar li:hover {
-	color: #d3d3d3;	
+    color: #d3d3d3;
 }
 
 /* Front Page
  * ===============================
  */
 
-#ninja_star {	
-	margin-top: 30px;
-
+#ninja_star {
+    margin-top: 10%;
 }
 #ninja_star img {
-	-webkit-transition: -webkit-tranform .8s ease-in-out;
-	-ms-transition: -ms-transform .8s ease-in-out;
-	transition: transform .8s ease-in-out;
+    -webkit-transition: -webkit-tranform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
 #ninja_star img:hover {
-	transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
 }
+
+/* Basic I Assignment
+ * ===============================
+ */
 
 #mainForm input {
     margin-bottom: 20px;
 }
 
-#basic_i_assignment {
-    margin-top: 20px;
-}
+/* Basic II Assignment
+ * ===============================
+ */
 
 .basic_ii_box{
     border: 1px solid black;
-    height: 200px;
+    height: 300px;
+    width: 24%;
     overflow: scroll;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
 }
-
-#main-container {
-    padding-bottom: 200px;
+#basic_ii_assignment {
+    margin-top: 40px;
+}
+#basic_ii_assignment textarea {
+    height: 300px;
+}
+#posts-submit {
+    margin-top: 10px;
+}
+@media (max-width: 1000px){
+  .basic_ii_box {
+    width: 100%;
+  }
 }
 
 /* Footer
@@ -77,16 +96,11 @@ a.navbar-brand img {
    background:#F5F5F5;
    bottom:0px;
 }
-
 #footer p {
-	margin-top: 17px;
-	padding-left: 5px;
+    margin-top: 17px;
+    padding-left: 5px;
 }
-
-
-
-
-
-
-
+#main-container {
+    padding-bottom: 200px;
+}
 

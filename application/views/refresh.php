@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Time to learn Ajax</title>
@@ -21,9 +19,9 @@
         <div id='main-container' class="container">
             <?php include 'main_view.php' ?>
         </div>
+
          <div id="footer">
              <p>&copy; itzedu | andyrewlee</p>
          </div>
     </body>
     <script type="text/javascript" src="../../assets/js/app.js"></script>
-</html>
