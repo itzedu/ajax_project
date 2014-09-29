@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
     </head>
     <body>
+        <h1>Home</h1>
         <?php include 'include/navbar.php' ?>
         <div id='error'>
         </div>

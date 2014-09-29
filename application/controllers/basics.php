@@ -25,6 +25,7 @@ class Basics extends CI_Controller {
             $output['error'] = "Post cannot be empty";
             echo json_encode($output);
         }
+    
     }
 }
 
